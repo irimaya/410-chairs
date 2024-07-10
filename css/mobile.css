@@ -1,0 +1,90 @@
+/* Utility Classes */
+.display-1 {
+	font-size: 3rem;
+}
+.display-2 {
+	font-size: 2rem;
+}
+
+/* Padding */
+.py-1 {
+	padding: 50px 0;
+}
+
+.py-2 {
+	padding: 30px 0;
+}
+
+.pr-1 {
+	padding-right: 0;
+}
+
+.pl-1 {
+	padding-left: 0;
+}
+
+/* Flex */
+.flex {
+	flex-direction: column;
+}
+
+/* Width */
+.w-80,
+.w-70,
+.w-50 {
+	width: 100%;
+}
+
+/* Mainheader */
+#mainheader {
+	height: 100%;
+}
+
+/* Navbar */
+.navbar {
+	height: 120%;
+	padding: 20px 0;
+}
+
+.navbar .container {
+	flex-direction: column;
+}
+
+.navbar ul li,
+.navbar .social a {
+	margin-left: 0;
+}
+.navbar ul li {
+	padding: 10px;
+}
+
+.navbar .social a {
+	padding: 2px;
+}
+
+/* Features */
+#features .features-box p {
+	padding-bottom: 15px;
+}
+
+/* About */
+#about,
+#collection,
+.mini-collection,
+.chair-3,
+.chair-4,
+.chair-5,
+#contact {
+	text-align: center;
+	border-bottom: 1px dotted #aaa;
+}
+
+#collection img {
+	padding-top: 20px;
+}
+
+.chair-3 .container,
+.chair-5 .container,
+#contact .container {
+	flex-direction: column-reverse;
+}
